@@ -34,7 +34,7 @@ export const CHome = styled.div`
   @media only screen and (max-width: 691px) {
     main {
       order: 1;
-      padding: 1vw;
+      padding: 1.5vw;
       p {
         max-width: 100vw;
         order: 2;

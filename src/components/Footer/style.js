@@ -64,6 +64,8 @@ export const CFooter = styled.div`
     align-items: left;
     justify-content: center;
 
+    padding: 2rem;
+
     section {
       display: flex;
       align-items: center;
