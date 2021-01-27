@@ -51,5 +51,15 @@ export const CHome = styled.div`
       }
     }
   }
+  
+
+  @media only screen and (min-width: 1920px){
+    main{
+      p{
+        font-size: 2.5vw;
+        line-height:2.8vw;
+      }
+    }
+  }
 
 `

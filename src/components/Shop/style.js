@@ -68,7 +68,7 @@ export const CShop = styled.div`
   @media only screen and (max-width: 691px) {
     justify-content: center;
     button {
-      width: 90vw;
+      width: 95vw;
       height: 6vw;
 
       position: sticky;
