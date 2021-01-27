@@ -7,7 +7,7 @@ export const CSideBar = styled.div`
 
   margin: 1vw 1vw 0 0;
 
-  z-index: 3;
+  z-index:2;
 
   background: transparent;
 

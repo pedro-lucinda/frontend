@@ -33,9 +33,42 @@ export const CShop = styled.div`
     }
   }
 
+  section {
+    display: flex;
+    overflow: hidden;
+    width: 50vw;
+
+    p {
+      display: inline-block;
+      white-space: nowrap;
+
+      font-family: "Hebbo", sans-serif;
+      color: red;
+
+      will-change: transform;
+      animation: 5s linear 0s infinite normal none running moving;
+
+      font-size: 1vw;
+
+      span {
+        font-family: "Heebo", Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+
+  @keyframes moving {
+    0% {
+      transform: translate(-10vw, 0px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+
   @media only screen and (max-width: 691px) {
+    justify-content: center;
     button {
-      width: 100vw;
+      width: 90vw;
       height: 6vw;
 
       position: sticky;
@@ -44,6 +77,10 @@ export const CShop = styled.div`
       display: block;
 
       font-size: 5vw;
+    }
+
+    section {
+      display: none;
     }
   }
 `;

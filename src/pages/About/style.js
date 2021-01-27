@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CHome = styled.div`
   width: 100vw;
+
   main {
     min-height: 100vh;
 
@@ -10,10 +11,10 @@ export const CHome = styled.div`
     align-items: left;
     justify-content: flex-start;
 
-
     position: relative;
     background: white;
     padding: 1vw;
+    margin-bottom: 5vw;
 
     z-index: 1;
 
@@ -50,4 +51,5 @@ export const CHome = styled.div`
       }
     }
   }
-`;
+
+`

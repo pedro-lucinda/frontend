@@ -5,7 +5,16 @@ const ShopContainer = () => {
   return (
     <CShop>
       <button> SHOP </button>
-      <section> </section>
+      <section>
+        <p>
+          <span> - FREE SHIPPING </span> - FREE SHIPPING
+          <span> - FREE SHIPPING </span> - FREE SHIPPING
+          <span> - FREE SHIPPING </span> - FREE SHIPPING
+          <span> - FREE SHIPPING </span> - FREE SHIPPING
+          <span> - FREE SHIPPING </span> - FREE SHIPPING
+          <span> - FREE SHIPPING </span>
+        </p>
+      </section>
     </CShop>
   );
 };
