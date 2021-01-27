@@ -1,6 +1,7 @@
 import React from "react";
 import { CSideBar } from "./style";
 import wine from '../../assets/wine-home.jpg'
+
 const SideBar = () => {
   return (
     <CSideBar>

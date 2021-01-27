@@ -19,17 +19,17 @@ export const CShop = styled.div`
     color: white;
     font-size: 2vw;
 
+    border: 2px solid black;
     border-radius: 2rem;
 
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
 
     &:hover {
       cursor: pointer;
       background: white;
-      border: 2px solid black;
-      box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
       color: black;
-      transition: all ease-in-out 0.3s;
+      transition: all ease-in-out 0.2s;
     }
   }
 

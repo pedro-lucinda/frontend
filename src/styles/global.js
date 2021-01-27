@@ -10,6 +10,7 @@ export default createGlobalStyle`
 	:root{
 		font-size: 10px;
 		font-family: 'Heebo', Arial, Helvetica, sans-serif;
+		
 		text-rendering: optimizespeed;
 		-webkit-font-smoothing: antialiased;
 	}

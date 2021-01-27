@@ -23,8 +23,7 @@ const About = () => {
         </p>
   
           <Shop />
-     
-
+  
         <p>
           Made in the traditional champagne method with a Brazilian touch, D.M.
           is sparkling wine that is uniquely flexible and versatile.
